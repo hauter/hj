@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>hj.web.controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckImage</servlet-name>
+    <servlet-class>hj.web.ui.CheckImage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterUI</servlet-name>
+    <servlet-class>hj.web.ui.RegisterUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginUI</servlet-name>
+    <servlet-class>hj.web.ui.LoginUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>hj.web.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Error404</servlet-name>
+    <servlet-class>hj.web.controller.Error404</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResidentUI</servlet-name>
+    <servlet-class>hj.web.ui.ResidentUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>hj.web.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>hj.web.controller.Search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddResidentUI</servlet-name>
+    <servlet-class>hj.web.ui.AddResidentUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddResident</servlet-name>
+    <servlet-class>hj.web.controller.AddResident</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditResidentUI</servlet-name>
+    <servlet-class>hj.web.ui.EditResidentUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateResident</servlet-name>
+    <servlet-class>hj.web.controller.UpdateResident</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutResident</servlet-name>
+    <servlet-class>hj.web.controller.LogoutResident</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OutResident</servlet-name>
+    <servlet-class>hj.web.controller.OutResident</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OutResidentUI</servlet-name>
+    <servlet-class>hj.web.ui.OutResidentUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InResidentUI</servlet-name>
+    <servlet-class>hj.web.ui.InResidentUI</servlet-class>
+  </servlet>
+    <servlet>
+  <servlet-name>InResident</servlet-name>
+    <servlet-class>hj.web.controller.InResident</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PoliceStationUI</servlet-name>
+    <servlet-class>hj.web.ui.PoliceStationUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PSSearch</servlet-name>
+    <servlet-class>hj.web.controller.PSSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddPSUI</servlet-name>
+    <servlet-class>hj.web.ui.AddPSUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddPS</servlet-name>
+    <servlet-class>hj.web.controller.AddPS</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditPSUI</servlet-name>
+    <servlet-class>hj.web.ui.EditPSUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePS</servlet-name>
+    <servlet-class>hj.web.controller.UpdatePS</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckinUI</servlet-name>
+    <servlet-class>hj.web.ui.CheckinUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Checkin</servlet-name>
+    <servlet-class>hj.web.controller.Checkin</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckImage</servlet-name>
+    <url-pattern>/servlet/CheckImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterUI</servlet-name>
+    <url-pattern>/servlet/RegisterUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginUI</servlet-name>
+    <url-pattern>/servlet/LoginUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Error404</servlet-name>
+    <url-pattern>/servlet/Error404</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResidentUI</servlet-name>
+    <url-pattern>/servlet/ResidentUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/servlet/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddResidentUI</servlet-name>
+    <url-pattern>/servlet/AddResidentUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddResident</servlet-name>
+    <url-pattern>/servlet/AddResident</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditResidentUI</servlet-name>
+    <url-pattern>/servlet/EditResidentUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateResident</servlet-name>
+    <url-pattern>/servlet/UpdateResident</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutResident</servlet-name>
+    <url-pattern>/servlet/LogoutResident</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutResident</servlet-name>
+    <url-pattern>/servlet/OutResident</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutResidentUI</servlet-name>
+    <url-pattern>/servlet/OutResidentUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InResidentUI</servlet-name>
+    <url-pattern>/servlet/InResidentUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InResident</servlet-name>
+    <url-pattern>/servlet/InResident</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PoliceStationUI</servlet-name>
+    <url-pattern>/servlet/PoliceStationUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PSSearch</servlet-name>
+    <url-pattern>/servlet/PSSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPSUI</servlet-name>
+    <url-pattern>/servlet/AddPSUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPS</servlet-name>
+    <url-pattern>/servlet/AddPS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPSUI</servlet-name>
+    <url-pattern>/servlet/EditPSUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePS</servlet-name>
+    <url-pattern>/servlet/UpdatePS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckinUI</servlet-name>
+    <url-pattern>/servlet/CheckinUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Checkin</servlet-name>
+    <url-pattern>/servlet/Checkin</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/servlet/Error404</location>
+	</error-page>
+</web-app>

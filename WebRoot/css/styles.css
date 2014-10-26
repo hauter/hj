@@ -1,0 +1,475 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	text-align: center;
+	background-color: #F4F7E7;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+}
+
+div#all {
+	text-align: left;
+}
+
+/*---------------pagehead.jsp-----------------*/
+div#head {
+	margin: 0 auto;
+	height: 130px;
+	margin-bottom: 50px;
+}
+
+div#head div#top {
+	height: 12px;
+	background-color: rgb(1, 19, 105);
+}
+
+div#head div#body {
+	height: 100px;
+	background-color: rgb(1, 19, 105);
+	font-size: 40px;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+	line-height: 100px;
+	color: white;
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 3px;
+}
+
+div#head div#body img {
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+}
+
+div#head div#bottom {
+	height: 8px;
+	background-color: rgb(1, 19, 105);
+}
+/*------------pagefoot.jsp--------------------*/
+div#foot {
+	clear: both; margin-top : 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div#foot p {
+	font-size: 15px;
+	text-align: center;
+}
+
+/* ---------------------login.jsp 登录注册组件 -------------------------*/
+div#login {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #E6E7F0;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+div#login div#title {
+	height: 50px;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+div#login table {
+	border-collapse: collapse;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+div#login tr td.name {
+	height: 50px;
+	width: 100px;
+}
+
+div#login tr td.message {
+	font-size: 15px;
+}
+
+div#login tr td span {
+	color: red;
+}
+
+div#login tr td input.text {
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+	border: 1px solid gray;
+	font-size: 20px;
+}
+
+div#login tr td img {
+	float: right;
+}
+
+div#login tr td input#button {
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-color: rgb(255, 241, 139);
+	border: 0;
+	font-size: 25px;
+	color: red;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+div#login tr td input#button:HOVER {
+	background-color: rgba(255, 241, 139, 0.8);
+	border: 1px solid rgb(220, 220, 220);
+}
+
+/*------------------message.jsp--------------------  */
+div#message {
+	width: 700px;
+	min-height: 200px;
+	background-color: #E8F2FE;
+	border: 1px solid #C2D3FC;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+}
+
+div#message p#goodmessage {
+	font-size: 40px;
+	color: green;
+}
+
+div#message p#badmessage {
+	font-size: 40px;
+	color: red;
+}
+
+div#message a {
+	font-size: 20px;
+}
+
+div#message div#forie8 {
+	height: 100px;
+}
+
+/*------------------------index.jsp card-----------------  */
+div#context {
+	width:100%;
+	height: 500px;
+	background-color: #263360;
+	margin-top: -50px;
+	min-width: 1000px;
+}
+div#context div#show{
+	width:1005px;
+	height:500px;
+	margin: 0 auto;
+}
+div#carddiv {
+	float: left;
+	margin-top: 30px;
+}
+
+ul#nav {
+	list-style-type: none;
+	margin: 10px 0 10px;
+	padding: 0;
+}
+
+ul#nav li {
+	float: left;
+	width: 30px;
+}
+
+ul#nav li a {
+	text-align: center;
+	text-decoration: none;
+	background: #CE0100;
+	color: #fff;
+	padding: 5px;
+}
+
+ul#nav li a.active {
+	background: #B4F114;
+}
+
+.card {
+	position: relative;
+	height: 400px;
+	width: 600px;
+	border: 1px solid #333;
+	overflow: hidden;
+}
+
+.slide-card {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slides {
+	float: right;
+}
+
+.slide-text {
+	display: none;
+	font-size: 18px;
+}
+.textStrip {
+	top: 0px;
+	display: block;
+	position: absolute;
+	left: -400px;
+	padding: 5px;
+	background: #333333;
+	opacity: .9;
+	color: #ffffff;
+	width: 100%;
+}
+div#line{
+	width:5px;
+	height:500px;
+	background-color: white;
+	float: left;
+	margin-left: 45px;
+}
+div#index{
+	width:300px;
+	height:400px;
+	background-color: #E9EBEF;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	border-radius:10px;
+}
+div#index input{
+	width:250px;
+	height:50px;
+	border: 0;
+	background-color: #3D8DE2;
+	border-radius:5px;
+	color:white;
+	font-size: 26px;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+}
+div#index input:HOVER{
+	width:252px;
+	border: 1px solid rgb(1, 19, 105);
+	font-size: 27px;
+}
+div#index input#loginlink{
+	margin-top: 100px;
+}
+div#index input#registerlink{
+	margin-top: 50px;
+}
+
+/*-----------------------navigation.jsp---------------------------- */
+div#search div#navigation{
+	background-color:gray;
+	height:50px;
+	margin:0 auto;
+	text-align: center;
+}
+div#search div#navigation span#user{
+	color:white;
+	float: left;
+	font-size: 17px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+div#search div#navigation span#user>a{
+	color: red;
+	text-decoration: none;
+}
+div#search div#navigation span#title{
+	color:white;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+	font-size: 23px;
+	text-align: center;
+	line-height: 50px;
+}
+div#search div#navigation>a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	display:inline-block;
+	height:28px;
+	margin-top:22px;
+	width:100px;
+	font-size: 15px;
+	line-height:30px;
+	float: right;
+	margin-right: 10px;
+	background-image: url(../pic/navigation.png);
+	background-repeat: no-repeat;
+}
+div#search div#navigation>a:HOVER{
+	color:white;
+	background-image: url(../pic/navigation.png);
+	background-position: 0px -30px;
+	background-repeat: no-repeat;
+}
+div#search div#navigation>a#activation{
+	color:white;
+	background-image: url(../pic/navigation.png);
+	background-position: 0px -30px;
+	background-repeat: no-repeat;
+}
+div#search div#river{
+	clear:right;
+	height:25px;
+	background-color:#3075A5;
+}
+div#search div#river div{
+	height:4px;
+	background-color: #A7CE38;
+}
+
+/*----------------------------------------------------  */
+body#rebody{
+	background-color: #F4F7E7;
+}
+div#residentpage{
+	min-height: 400px;
+}
+div#searchframe{
+	height:55px;
+	background-image: url(../pic/search_frame_back.png);
+	background-repeat: repeat-x;
+	padding-top: 2px;
+}
+div#searchframe div{
+	height:48px;
+	width:453px;
+	border: 1px solid black;
+	margin: auto;
+}
+div#searchframe a{
+	float:right;
+	margin-right: 50px;
+}
+div#searchframe input#text{
+	width:400px;
+	height:48px;
+	border:0;
+	border-right:1px solid black;
+	float:left;
+	font-size: 25px;
+}
+div#searchframe input#button{
+	width:48px;
+	height:48px;
+	background-image: url(../pic/search_ico.png);
+	border:0;
+	background-color: transparent;
+
+}
+
+table#resident{
+	margin: auto;
+	border:1px solid #95CF1A;
+	border-collapse: collapse;
+	min-width: 1250px;
+}
+table#resident th{
+	background-color: #E5EEC2;
+	border:1px solid #95CF1A;
+	height:30px;
+}
+table#resident tr.deleted{
+	background-color: #E95045;
+}
+table#resident tr.outed{
+	background-color: #D6D3C9;
+}
+table#resident td{
+	border:1px dashed #95CF1A;
+	height:40px;
+}
+table#resident tr:HOVER{
+	background-color: #F6CC88;
+}
+
+/*------------------------addresident.jsp------------------------  */
+div#back{
+	background-image: url(../pic/search_frame_back.png);
+	background-repeat: repeat-x;
+	height:	55px;
+}
+div#add{
+	width:700px;
+	min-height: 300px;
+	margin: 0 auto;
+	box-shadow:0px 0px 2px 2px rgb(210, 210, 210);
+	border: 1px solid #808080;
+	border-radius:5px;
+}
+div#add div#title{
+	background-color: #3075A5;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+	font-size: 23px;
+	color:white;
+	line-height: 50px;
+	text-align: center;
+}
+div#add table{
+	margin-top:5px;
+	margin-left:10px;
+	border-collapse:collapse;
+	font-size: 20px;
+	
+}
+div#add table tr td{
+	height:40px;
+	min-width: 150px;
+}
+div#add table tr td.errors{
+	font-size: 16px;
+	color: red;
+}
+div#add table tr td input{
+	width: 300px;
+	height:35px;
+	font-size: 18px;
+	border: 1px solid gray;
+	box-shadow:0px 0px 1px 1px rgb(210, 210, 210) inset;
+	line-height: 30px;
+}
+div#add table tr td select{
+	width: 85px;
+	height:35px;
+	font-size: 18px;
+}
+div#add input#button{
+	margin:5px 5px 5px 5px;
+	width:200px;
+	height:50px;
+	border: 0;
+	background-color: #A7CE38;
+	font-family: \5FAE\8F6F\96C5\9ED1, \9ED1\4F53;
+	font-size: 25px;
+	color:white;
+	
+}
+div#add input#button:HOVER {
+	box-shadow:0px 0px 1px 1px rgb(210, 210, 210);
+}
+
+/*--------------------------outresident.jsp--------------------------  */
+table#inout{
+	width:500px;
+	margin: 0 auto;
+}
+table#inout tr td img{
+	display:block;
+	margin: 0 auto;
+}
+table#inout tr td.errors{
+	font-size: 16px;
+	color: red;
+}
+
+
+
+
+
